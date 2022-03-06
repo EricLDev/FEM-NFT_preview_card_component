@@ -1,0 +1,134 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 18rem;
+    height: 33rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding: 1.5rem 1.5rem 0 1.5rem
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img img {
+    border-radius: 0.5rem;
+    width: 100%;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 98%;
+    width: 100%;
+    opacity: 0;
+    background-color: hsla(178, 100%, 50%, 50%);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.card-img:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid hsl(215, 32%, 27%)
+}
+
+.eth, .daysleft {
+    display: flex;
+    align-items: center;
+
+}
+
+.eth span {
+    color: hsl(178, 100%, 50%);
+    margin-left: 0.5rem
+}
+
+.daysleft span {
+    color: hsl(215, 51%, 70%);
+    margin-left: 0.5rem;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+.card-footer img {
+    height: 2rem;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    margin-right: 1rem;
+}
+
+.card-footer p {
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-footer span {
+    color: white;
+}
+
+.card-footer span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8rem;
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+}
