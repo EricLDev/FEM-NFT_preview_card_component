@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/card-component-with-html-and-css-p9Dw96pqc]
-- Live Site URL: [https://ericl81.github.io/FEM-NFT_preview_card_component/]
+- Live Site URL: [https://ericldev.github.io/FEM-NFT_preview_card_component/]
 
 # Frontend Mentor - NFT preview card component
 
